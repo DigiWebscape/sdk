@@ -1,0 +1,41 @@
+{
+  "name": "@digiwebscape/sdk",
+  "version": "0.16.13",
+  "description": "Official Isomorphic TypeScript SDK for DigiWebscape Platform (AI Visibility, Telemetry, Webhooks & MCP)",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "lint": "echo '@digiwebscape/sdk lint ok'"
+  },
+  "dependencies": {
+    "@digiwebscape/api-client": "workspace:*",
+    "@digiwebscape/types": "workspace:*"
+  },
+  "keywords": [
+    "digiwebscape",
+    "sdk",
+    "ai-visibility",
+    "telemetry",
+    "webhooks",
+    "mcp"
+  ],
+  "author": "Hitender Sharma (DigiWebscape)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigiWebscape/sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DigiWebscape/sdk/issues"
+  },
+  "homepage": "https://github.com/DigiWebscape/sdk#readme"
+}
